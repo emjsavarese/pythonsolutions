@@ -1,0 +1,55 @@
+#Test 1 (regular)
+#This tests the program's ability to handle a regular set of guesses and placements.
+Placements:
+A 0 8 4 8
+P 7 6 8 6
+D 5 5 7 5
+B 0 0 0 3
+S 8 8 6 8
+
+Guesses:
+0 81 82 83 84 87 68 65 56 57 50 00 10 20 36 87 88 8
+#End of test
+
+#Test 2 (regular)
+#This tests the program's ability to handle a single guess.
+Placements:
+A 0 8 4 8
+P 7 6 8 6
+D 5 5 7 5
+B 0 0 0 3
+S 8 8 6 8
+
+Guesses:
+6 8
+#End of Test
+
+#Test 3 (error)
+#This tests the program's ability to handle when a ship is too large.
+Placements:
+A 0 8 5 8
+P 7 6 8 6
+D 5 5 7 5
+B 0 0 0 3
+S 8 8 6 8
+#End of test
+
+#Test 4 (error)
+#This tests the program's ability to check for an out of bound ship.
+Placements:
+A 0 10 4 10
+P 7 6 8 6
+D 5 5 7 5
+B 0 0 0 3
+S 8 8 6 8
+#End of test
+
+#Test 5 (error)
+#This tests the program's ability to check for the correct amount of fleets.
+Placements:
+A 0 8 4 8
+P 7 6 8 6
+D 5 5 7 5
+S 8 8 6 8
+S 8 8 6 8
+#End of test

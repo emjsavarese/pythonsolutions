@@ -1,0 +1,42 @@
+# Test 1 (regular)
+#This tests the program's abilities to handle normal inputs.
+SLAM  S L AE1 M
+CLAM  K L AE1 M
+CLAMS  K L AE1 M Z
+CUNNINGHAM  K AH1 N IH0 NG HH AE2 M
+
+slam
+#End of test
+
+#Test 2 (regular)
+#This tests the program's ability to handle normal inputs.
+BUT  B AH1 T
+KLUTZ  K L AH1 T S
+BUTT  B AH1 T
+
+but
+#End of test
+
+#Test 3 (edge)
+#This tests the program's ability to react when there are no rhymes.
+CLAM  K L AE1 M
+BUT  B AH1 T
+
+clam
+#End of test
+
+#Test 4 (error)
+#This tests the ability to handle a file that does not exist.
+
+thisisnotafile.txt
+
+#End of test
+
+#Test 5 (error)
+#This tests the program's ability to handle a word not in the file.
+CLAM  K L AE1 M
+BUT  B AH1 T
+
+hearth
+
+#End of test
